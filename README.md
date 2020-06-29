@@ -1,2 +1,7 @@
 # create-my-project
-npm 包初始化项目
+npm 初始化项目
+
+### 使用方式
+~
+    npm init my-project
+~

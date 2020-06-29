@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "moduleResolution": "node",
+      "module": "esnext",
+      "experimentalDecorators": true,
+      "noEmit": true,
+      "esModuleInterop": true,
+      "strict": true,
+      "removeComments": true,
+      "noImplicitThis": true,
+      "noImplicitAny": true
+    },
+    "include": ["src/**/*"]
+}

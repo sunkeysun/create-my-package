@@ -1,0 +1,45 @@
+{
+  "name": "create-my-project",
+  "version": "1.0.0",
+  "description": "npm 初始化项目",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel --delete-dir-on-start -D src -d build --extensions '.ts,.tsx'"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged --quiet"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunkeysun/create-my-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sunkeysun/create-my-project/issues"
+  },
+  "homepage": "https://github.com/sunkeysun/create-my-project#readme",
+  "devDependencies": {
+    "@babel/plugin-proposal-export-default-from": "^7.8.3",
+    "@babel/plugin-proposal-export-namespace-from": "^7.8.3",
+    "@babel/plugin-proposal-optional-chaining": "^7.9.0",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-typescript": "^7.9.0",
+    "@typescript-eslint/eslint-plugin": "^3.0.1",
+    "@typescript-eslint/parser": "^3.0.1",
+    "babel-plugin-module-resolver": "^4.0.0",
+    "eslint": "^7.1.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-prettier": "^3.1.3",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^4.0.2",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.6",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.3"
+  }
+}
